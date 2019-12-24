@@ -1,9 +1,9 @@
 Dashboard
 DESENVOLVIDO POR : Thiago Henrique Pedro.
 
-Dashboard feito em Angular, com intuito de gerenciar contas de usuários.
+Dashboard feito em Angular CLI version 8.3.12, com intuito de gerenciar contas de usuários.
 
-Product Log feito -> Layout Dashboard responsivo; Lista  usuários e Gráfico de comentários (Quantidade de comentários os usuários fizeram) dos usuários.
+Product Log feito -> Layout Dashboard responsivo; Lista  usuários e Gráfico de comentários (Quantidade de comentários que os usuários fizeram) dos usuários.
 
 API
 -> Foi utilizada o https://jsonplaceholder.typicode.com/ que é uma API REST on-line falsa para testes e prototipagem. EndPoints:https://jsonplaceholder.typicode.com/posts ,http://jsonplaceholder.typicode.com/users .
