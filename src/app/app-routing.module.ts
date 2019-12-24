@@ -11,7 +11,8 @@ const routes: Routes = [
   children: [
     {path: 'home', component: DashboardComponent},
     {path: 'chart', component: ChartPageComponent},
-    {path: 'list', component: ListPageComponent}
+    {path: 'list', component: ListPageComponent},
+    {path: '', redirectTo: 'home', pathMatch: 'full'}
   ],
 }
 ];
