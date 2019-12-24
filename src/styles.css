@@ -26,6 +26,19 @@
       .rTable thead{display:none;}
       .rTable tbody td{display: flex; flex-direction: column; }
   }
+
+
+ @media screen and (min-width: 280px) and (max-width:800px){
+    .content{
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .pt-1{
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+}
   
   @media only screen and (min-width: 1200px){
       .content{width:100%;}
@@ -35,3 +48,4 @@
       .rTable tbody tr td:nth-child(4){width:10%;}
       .rTable tbody tr td:nth-child(5){width:30%;}
   }
+
