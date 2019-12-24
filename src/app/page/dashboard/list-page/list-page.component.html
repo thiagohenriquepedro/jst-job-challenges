@@ -1,0 +1,22 @@
+<h4 class="pt-1">Lista de Usuarios</h4>
+<div class="content">
+
+  <table class="rTable">
+    <thead>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Telefone</th>
+        <th scope="col">Local de Trabalho</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of _user ">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+        <td>{{ user.company.name }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
