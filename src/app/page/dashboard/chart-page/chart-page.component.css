@@ -2,3 +2,8 @@
   text-align: center;
   margin: 30px auto;
 }
+
+#myChart{
+  width: 80%;
+  height: 20%;
+}
