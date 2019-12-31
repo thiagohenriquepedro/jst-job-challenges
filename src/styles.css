@@ -36,12 +36,12 @@
   }
 
 @media only screen and (min-width: 730px) and (max-width: 1200px){
-    .content{width:100%; margin-left: 15px;}
-    .rTable tbody tr td:nth-child(1){width:10%;}
-    .rTable tbody tr td:nth-child(2){width:30%;}
-    .rTable tbody tr td:nth-child(3){width:20%;}
-    .rTable tbody tr td:nth-child(4){width:10%;}
-    .rTable tbody tr td:nth-child(5){width:30%;}
+    .content{width:100%; margin-left: 15px!important;}
+    .rTable tbody tr td:nth-child(1){width:10%!important;}
+    .rTable tbody tr td:nth-child(2){width:30%!important;}
+    .rTable tbody tr td:nth-child(3){width:20%!important;}
+    .rTable tbody tr td:nth-child(4){width:10%!important;}
+    .rTable tbody tr td:nth-child(5){width:30%!important;}
 
   }
 
