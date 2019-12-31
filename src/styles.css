@@ -42,6 +42,10 @@
     .rTable tbody tr td:nth-child(3){width:20%!important;}
     .rTable tbody tr td:nth-child(4){width:10%!important;}
     .rTable tbody tr td:nth-child(5){width:30%!important;}
+  }
 
+@media only screen and (min-width: 230px) and (max-width: 480px){
+  .rTable{width: 100%; text-align: center; margin-left: 45px;}
+  .pt-1 { margin-left: 60px!important;}
   }
 
